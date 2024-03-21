@@ -28,5 +28,5 @@ const mode = process.env.NODE_MODE || development
 
 // Listening Function
 app.listen(port, ()=>{
-    console.log(`Server running in ${mode} mode on http://localhost:${port}`.bgMagenta.white)
+    console.log(`Server Running in ${mode} mode on http://localhost:${port}`.bgMagenta.white)
 })
